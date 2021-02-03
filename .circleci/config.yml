@@ -27,7 +27,7 @@ jobs:
           command: |
             return 123431
       - destroy_environment
-        when: on_fail
+      when: on_fail
 
 workflows:
   my_workflow:
